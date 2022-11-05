@@ -1,0 +1,3 @@
+traffic_light.c:16:6:Traffic_Light_Update	8	static
+traffic_light.c:61:6:Traffic_Light_Updatenext	8	static
+traffic_light.c:106:6:Traffic_Light_Init	4	static
