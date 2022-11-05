@@ -15,7 +15,7 @@
 #define START 100
 #define WAITING 99
 extern int status ;
-extern int timer ;
+extern int counter ;
 
 extern int RED_TIME;
 extern int YELLOW_TIME;

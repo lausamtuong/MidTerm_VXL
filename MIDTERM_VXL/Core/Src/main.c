@@ -27,7 +27,7 @@
 #include "EXTER_VARIABLE.h"
 
 int status= START; // Start state is first state
-int timer = MAX-1;
+int counter = MAX-1;
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -106,7 +106,7 @@ int main(void)
 
 
 	while (1){
-		fsm_for_input_processing();
+		fsm_simple_buttons_run();
 		//Toggle LED by 1 second
 		if(timer0_flag==1){
 			timer0_flag=0;
